@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestGetAPIKeyGoodHeader (t *testing.T) {
+func TestGetAPIKeyGoodHeader(t *testing.T) {
 	headers := http.Header{}
 	headers.Set("Authorization", "ApiKey super-duper-secret-key")
 	str, err := GetAPIKey(headers)
