@@ -13,7 +13,7 @@ func TestGetAPIKeyGoodHeader (t *testing.T) {
 	if err != nil {
 		t.Fatalf("unexpected error: %v", err)
 	}
-	if str == wantStr {
+	if str != wantStr {
 		t.Fatalf("expected: %v, got %v", wantStr, str)
 	}
 }
