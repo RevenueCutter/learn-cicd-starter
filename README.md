@@ -1,4 +1,4 @@
-![README Badge](https://github.com/RevenueCutter/learn-cicd-starter/actions/workflows/ci/badge.svg)
+![README Badge](https://github.com/RevenueCutter/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
